@@ -112,17 +112,19 @@ export const hi = {
       landless_labor: 'भूमिहीन कृषि मजदूर'
     },
     schemeActivityOptions: {
-      field_crops: 'खलिहान फसलें (अनाज, दालें, तिलहन)',
-      horticulture: 'बागवानी (सब्जियां, फल, फूल)',
-      plantation: 'वृक्षारोपण (गन्ना, कपास आदि)',
-      dairy: 'डेयरी / दुग्ध उत्पादन',
+      field_crops: 'फसल की खेती',
+      vegetable_farming: 'सब्जियों की खेती',
+      horticulture: 'फल की खेती / बागवानी',
+      dairy: 'डेयरी पालन',
       poultry: 'मुर्गी पालन',
-      fishery: 'मत्स्य पालन / जलचर',
-      sericulture: 'रेशम उत्पादन',
-      beekeeping: 'मधुमक्खी पालन / शहद',
-      agroforestry: 'कृषि वानिकी',
-      organic: 'जैविक खेती / प्रमाणन'
+      goat_sheep: 'बकरी / भेड़ पालन',
+      fishery: 'मछली पालन',
+      organic: 'जैविक खेती',
+      floriculture: 'फूलों की खेती',
+      other: 'अन्य'
     },
+    schemeActivityOther: 'कृपया गतिविधि बताएं',
+    schemeActivityOtherPlaceholder: 'अपनी कृषि गतिविधि दर्ज करें',
     schemeIncomeOptions: {
       below_1lakh: '₹1 लाख से कम',
       between_1_2lakh: '₹1 लाख - ₹2 लाख',

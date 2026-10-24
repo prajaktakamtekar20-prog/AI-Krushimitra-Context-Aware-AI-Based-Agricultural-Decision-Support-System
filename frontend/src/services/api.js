@@ -129,8 +129,7 @@ export const authApi = {
   googleLogin: (data) => api.post('/auth/google', data, {
     headers: { 'X-Requested-With': 'XmlHttpRequest' }
   }),
-  logout: () => {
-    const token = localStorage.getItem('krushimitra_token')
+  logout: (token = localStorage.getItem('krushimitra_token')) => {
     return api.post('/auth/logout', null, {
       headers: token ? { Authorization: `Bearer ${token}` } : {}
     })

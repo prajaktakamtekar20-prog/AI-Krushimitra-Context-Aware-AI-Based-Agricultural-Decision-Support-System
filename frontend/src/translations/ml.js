@@ -112,17 +112,19 @@ export const ml = {
       landless_labor: 'ഭൂരഹിത കാർഷിക തൊഴിലാളി'
     },
     schemeActivityOptions: {
-      field_crops: 'വയൽവിളകൾ (ധാന്യങ്ങൾ, പയർവർഗങ്ങൾ, എണ്ണവിത്തുകൾ)',
-      horticulture: 'ഉദ്യാനകൃഷി (പച്ചക്കറികൾ, പഴങ്ങൾ, പൂക്കൾ)',
-      plantation: 'തോട്ടവിളകൾ (കരിമ്പ്, പരുത്തി മുതലായവ)',
-      dairy: 'ക്ഷീരോൽപാദനം',
+      field_crops: 'വിളകൃഷി',
+      vegetable_farming: 'പച്ചക്കറി കൃഷി',
+      horticulture: 'ഫലകൃഷി / ഉദ്യാനകൃഷി',
+      dairy: 'ക്ഷീരകൃഷി',
       poultry: 'കോഴിവളർത്തൽ',
-      fishery: 'മത്സ്യകൃഷി / ജലകൃഷി',
-      sericulture: 'പട്ടുനൂൽ കൃഷി',
-      beekeeping: 'തേനീച്ച വളർത്തൽ / തേൻ ഉൽപാദനം',
-      agroforestry: 'കാർഷിക വനവൽക്കരണം',
-      organic: 'ജൈവകൃഷി / സർട്ടിഫിക്കേഷൻ'
+      goat_sheep: 'ആട് / ചെമ്മരിയാട് വളർത്തൽ',
+      fishery: 'മത്സ്യകൃഷി',
+      organic: 'ജൈവകൃഷി',
+      floriculture: 'പുഷ്പകൃഷി',
+      other: 'മറ്റുള്ളവ'
     },
+    schemeActivityOther: 'ദയവായി പ്രവർത്തനം വ്യക്തമാക്കുക',
+    schemeActivityOtherPlaceholder: 'നിങ്ങളുടെ കാർഷിക പ്രവർത്തനം നൽകുക',
     schemeIncomeOptions: {
       below_1lakh: '₹1 ലക്ഷത്തിൽ താഴെ',
       between_1_2lakh: '₹1 ലക്ഷം - ₹2 ലക്ഷം',

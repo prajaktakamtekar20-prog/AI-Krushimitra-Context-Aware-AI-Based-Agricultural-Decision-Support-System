@@ -10,9 +10,28 @@ import FormSelect from '../components/FormSelect'
 import GradientButton from '../components/GradientButton'
 import LanguageSwitcher from '../components/LanguageSwitcher'
 import { getPlantVillageCropOptions, normalizePlantVillageCrop } from '../constants/crops'
+import { normalizeActivities } from '../utils/schemeActivities'
 
 const DEFAULT_LAT = 18.5204
 const DEFAULT_LON = 73.8567
+const LEGACY_ACTIVITY_LABELS = {
+  plantation: 'Plantation Crops',
+  sericulture: 'Sericulture / Silk',
+  beekeeping: 'Beekeeping / Honey',
+  agroforestry: 'Agroforestry / Farm Forestry'
+}
+const SCHEME_ACTIVITY_OPTION_KEYS = [
+  'field_crops',
+  'vegetable_farming',
+  'horticulture',
+  'dairy',
+  'poultry',
+  'goat_sheep',
+  'fishery',
+  'organic',
+  'floriculture',
+  'other'
+]
 
 const CreateProfile = () => {
   const { t } = useLanguage()
@@ -22,6 +41,15 @@ const CreateProfile = () => {
   const [locating, setLocating] = useState(false)
   const [detectedLoc, setDetectedLoc] = useState(null)
   const [submitError, setSubmitError] = useState('')
+  const savedActivities = user?.scheme_profile?.activities ?? user?.activities
+  const savedActivityList = normalizeActivities(savedActivities)
+  const savedOtherActivities = savedActivityList
+    .filter((activity) => typeof activity === 'string' && activity.startsWith('other:'))
+    .map((activity) => activity.slice('other:'.length).trim())
+    .filter(Boolean)
+  const legacyOtherActivities = savedActivityList
+    .filter((activity) => typeof activity === 'string' && Object.prototype.hasOwnProperty.call(LEGACY_ACTIVITY_LABELS, activity))
+    .map((activity) => LEGACY_ACTIVITY_LABELS[activity])
 
   const [form, setForm] = useState({
     fullName: user?.name || user?.full_name || '',
@@ -44,7 +72,13 @@ const CreateProfile = () => {
     age: user?.scheme_profile?.age || user?.age || '',
     farmerCategory: user?.scheme_profile?.farmer_category || user?.farmer_category || user?.category || '',
     landTenure: user?.scheme_profile?.land_tenure || user?.scheme_profile?.land_ownership || user?.land_tenure || user?.landOwnership || '',
-    activities: user?.scheme_profile?.activities || user?.activities || [],
+    activities: savedActivityList.flatMap((activity) => {
+      if (typeof activity !== 'string') return []
+      return activity.startsWith('other:') || Object.prototype.hasOwnProperty.call(LEGACY_ACTIVITY_LABELS, activity)
+        ? ['other']
+        : [activity]
+    }),
+    otherActivity: [...savedOtherActivities, ...legacyOtherActivities].join(', '),
     annualIncomeBand: user?.scheme_profile?.annual_income_band || user?.scheme_profile?.income_band || user?.annual_income_band || user?.incomeBand || '',
     alreadyBeneficiary: user?.scheme_profile?.already_beneficiary != null ? String(user?.scheme_profile?.already_beneficiary) : (user?.already_beneficiary != null ? String(user?.already_beneficiary) : '')
   })
@@ -120,6 +154,10 @@ const CreateProfile = () => {
   }
 
   const cropOptions = getPlantVillageCropOptions(t)
+  const schemeActivityOptions = SCHEME_ACTIVITY_OPTION_KEYS.map((key) => ({
+    value: key,
+    label: t(`createProfile.schemeActivityOptions.${key}`)
+  }))
 
   const stageOptions = ['seedling', 'vegetative', 'flowering', 'fruiting', 'harvesting'].map(
     (k) => ({ value: k, label: t(`createProfile.stages.${k}`) })
@@ -185,7 +223,13 @@ const CreateProfile = () => {
         age: ageNum ?? undefined,
         farmer_category: form.farmerCategory ? String(form.farmerCategory).trim() : undefined,
         land_tenure: form.landTenure ? String(form.landTenure).trim() : undefined,
-        activities: Array.isArray(form.activities) && form.activities.length > 0 ? [...form.activities] : undefined,
+        activities: Array.isArray(form.activities) && form.activities.length > 0
+          ? form.activities.map((activity) => (
+            activity === 'other' && form.otherActivity.trim()
+              ? `other: ${form.otherActivity.trim()}`
+              : activity
+          ))
+          : undefined,
         annual_income_band: form.annualIncomeBand ? String(form.annualIncomeBand).trim() : undefined,
         already_beneficiary: typeof alreadyBeneficiaryVal === 'boolean' ? alreadyBeneficiaryVal : undefined,
       }
@@ -543,12 +587,12 @@ const CreateProfile = () => {
             <div className="form-group" style={{ marginTop: 20 }}>
               <label className="form-label">🌾 {t('createProfile.schemeFarmingActivities')}</label>
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 10, marginTop: 10 }}>
-                {Object.entries((t('createProfile.schemeActivityOptions') || {})).map(([k, v]) => {
-                  const isSel = Array.isArray(form.activities) && form.activities.includes(k)
+                {schemeActivityOptions.map(({ value, label }) => {
+                  const isSel = Array.isArray(form.activities) && form.activities.includes(value)
                   return (
                     <label
-                      key={k}
-                      onClick={() => toggleActivity(k)}
+                      key={value}
+                      onClick={() => toggleActivity(value)}
                       style={{
                         display: 'flex', alignItems: 'center', gap: 10, padding: '10px 12px',
                         background: isSel ? 'rgba(34, 197, 94, 0.12)' : 'var(--glass-bg)',
@@ -558,11 +602,20 @@ const CreateProfile = () => {
                       }}
                     >
                       <input type="checkbox" readOnly checked={isSel} />
-                      <span>{v}</span>
+                      <span>{label}</span>
                     </label>
                   )
                 })}
               </div>
+              {form.activities.includes('other') && (
+                <FormInput
+                  label={t('createProfile.schemeActivityOther')}
+                  name="otherActivity"
+                  value={form.otherActivity}
+                  onChange={handleChange}
+                  placeholder={t('createProfile.schemeActivityOtherPlaceholder')}
+                />
+              )}
             </div>
           </GlassCard>
 

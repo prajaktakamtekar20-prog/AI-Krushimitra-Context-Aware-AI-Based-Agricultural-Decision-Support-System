@@ -98,11 +98,32 @@ const Disease = () => {
       return undefined
     }
 
+    const localStarted = performance.now()
+    const localResult = localizeDiseaseResult(result, language)
+    if (localResult.translation_complete) {
+      const translations = cachedTranslations || new Map()
+      translations.set(language, localResult)
+      translatedResultCacheRef.current.set(result, translations)
+      setLocalizedResult(localResult)
+      setLocalizedResultLanguage(language)
+      setTranslationLoading(false)
+      setTranslationError('')
+      console.info(
+        'Disease localization frontend timing ms:',
+        Math.round(performance.now() - localStarted),
+        'stage: local_dictionary',
+        'language:',
+        language
+      )
+      return undefined
+    }
+
     let active = true
     setLocalizedResult(null)
     setLocalizedResultLanguage(null)
     setTranslationLoading(true)
     setTranslationError('')
+    const providerStarted = performance.now()
     diseaseApi.translateResult(result, language)
       .then((response) => {
         if (!active) return
@@ -118,10 +139,16 @@ const Disease = () => {
         translatedResultCacheRef.current.set(result, translations)
         setLocalizedResult(translatedResult)
         setLocalizedResultLanguage(language)
+        console.info(
+          'Disease localization frontend timing ms:',
+          Math.round(performance.now() - providerStarted),
+          'stage: translation_api',
+          'language:',
+          language
+        )
       })
       .catch(() => {
         if (!active) return
-        const localResult = localizeDiseaseResult(result, language)
         const translations = translatedResultCacheRef.current.get(result) || new Map()
         translations.set(language, localResult)
         translatedResultCacheRef.current.set(result, translations)

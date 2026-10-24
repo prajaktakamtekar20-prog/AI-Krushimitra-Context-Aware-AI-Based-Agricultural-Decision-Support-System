@@ -1,0 +1,27 @@
+{
+  "input": {
+    "height": 224,
+    "width": 224,
+    "color_mode": "RGB",
+    "value_range": "0-255",
+    "resize_method": "bilinear",
+    "notes": "The saved Keras graph already applies MobileNetV2 preprocess_input (x / 127.5 - 1). Do not pre-normalize in Python."
+  },
+  "thresholds": {
+    "min_top1_confidence": 55.0,
+    "min_margin_pp": 18.0,
+    "min_crop_mass": 60.0,
+    "max_softmax_entropy": 2.2,
+    "uncertain_top1_confidence": 70.0,
+    "non_plant_max_conf": 22.0,
+    "min_image_side": 64,
+    "min_laplacian_variance": 12.0,
+    "min_mean_brightness": 12.0,
+    "max_mean_brightness": 245.0
+  },
+  "calibration": {
+    "source": "conservative defaults for a closed-set PlantVillage MobileNetV2; re-run scripts/calibrate_thresholds.py on a held-out validation set before production use",
+    "target_precision": 0.90,
+    "do_not_treat_softmax_as_proof": true
+  }
+}

@@ -112,17 +112,19 @@ export const en = {
       landless_labor: 'Landless Agricultural Laborer'
     },
     schemeActivityOptions: {
-      field_crops: 'Field Crops (Cereals, Pulses, Oilseeds)',
-      horticulture: 'Horticulture (Vegetables, Fruits, Flowers)',
-      plantation: 'Plantation Crops (Sugarcane, Cotton, etc.)',
-      dairy: 'Dairy / Milk Production',
+      field_crops: 'Crop Farming',
+      vegetable_farming: 'Vegetable Farming',
+      horticulture: 'Fruit Farming / Horticulture',
+      dairy: 'Dairy Farming',
       poultry: 'Poultry Farming',
-      fishery: 'Fisheries / Aquaculture',
-      sericulture: 'Sericulture / Silk',
-      beekeeping: 'Beekeeping / Honey',
-      agroforestry: 'Agroforestry / Farm Forestry',
-      organic: 'Organic Farming / Certification'
+      goat_sheep: 'Goat / Sheep Farming',
+      fishery: 'Fish Farming',
+      organic: 'Organic Farming',
+      floriculture: 'Floriculture',
+      other: 'Other'
     },
+    schemeActivityOther: 'Please specify the activity',
+    schemeActivityOtherPlaceholder: 'Enter your farming activity',
     schemeIncomeOptions: {
       below_1lakh: 'Below ₹1 Lakh',
       between_1_2lakh: '₹1 Lakh - ₹2 Lakh',

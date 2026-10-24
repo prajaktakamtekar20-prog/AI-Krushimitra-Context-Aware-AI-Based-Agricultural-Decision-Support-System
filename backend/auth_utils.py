@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 from typing import Optional
 import hashlib
 import hmac
+import logging
 import bcrypt
 from jose import JWTError, jwt
 from fastapi import Depends, HTTPException, status
@@ -15,6 +16,7 @@ from database import (
     get_user_collection,
 )
 
+logger = logging.getLogger(__name__)
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login", auto_error=False)
 
 
@@ -46,13 +48,20 @@ def hash_password(password: str) -> str:
 
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
+    if not isinstance(hashed_password, str) or not hashed_password:
+        logger.error("Password verification failed at stage=stored_hash_validation.")
+        return False
     try:
         if hashed_password.startswith("sha256$"):
             salt = settings.SECRET_KEY[:8] or "salt1234"
             expected = hashlib.sha256((plain_password + salt).encode("utf-8")).hexdigest()
             return hmac.compare_digest(hashed_password[7:], expected)
         return bcrypt.checkpw(_truncate_pw(plain_password), hashed_password.encode("utf-8"))
-    except Exception:
+    except (TypeError, ValueError) as exc:
+        logger.error(
+            "Password verification failed at stage=stored_hash_validation error_type=%s.",
+            type(exc).__name__,
+        )
         return False
 
 

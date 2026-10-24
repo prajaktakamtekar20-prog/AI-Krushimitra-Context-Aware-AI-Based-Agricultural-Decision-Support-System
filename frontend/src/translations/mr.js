@@ -112,17 +112,19 @@ export const mr = {
       landless_labor: 'भूमिहीन कृषी कामगार'
     },
     schemeActivityOptions: {
-      field_crops: 'पीक कृषी (धान्य, कडधान्य, तेलबिया)',
-      horticulture: 'बागायती (भाज्या, फळे, फुले)',
-      plantation: 'वृक्षारोपण (ऊस, कापूस इ.)',
-      dairy: 'दुग्धव्यवसाय / दूध उत्पादन',
-      poultry: 'कोंबडी पालन',
-      fishery: 'मत्स्यव्यवसाय / जलचर पालन',
-      sericulture: 'रेशीम उत्पादन / कोष्टी',
-      beekeeping: 'मधमाशी पालन / मध',
-      agroforestry: 'कृषी वनीकरण / शेती वनस्पती',
-      organic: 'सेंद्रिय शेती / प्रमाणन'
+      field_crops: 'पीक शेती',
+      vegetable_farming: 'भाजीपाला शेती',
+      horticulture: 'फळशेती / बागायती',
+      dairy: 'दुग्धव्यवसाय',
+      poultry: 'कुक्कुटपालन',
+      goat_sheep: 'शेळी / मेंढी पालन',
+      fishery: 'मत्स्यपालन',
+      organic: 'सेंद्रिय शेती',
+      floriculture: 'फुलशेती',
+      other: 'इतर'
     },
+    schemeActivityOther: 'कृपया उपक्रम नमूद करा',
+    schemeActivityOtherPlaceholder: 'तुमचा शेतीचा उपक्रम लिहा',
     schemeIncomeOptions: {
       below_1lakh: '₹1 लाखांपेक्षा कमी',
       between_1_2lakh: '₹1 लाख - ₹2 लाख',

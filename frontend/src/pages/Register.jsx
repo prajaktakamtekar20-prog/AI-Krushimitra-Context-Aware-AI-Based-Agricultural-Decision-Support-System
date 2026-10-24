@@ -55,9 +55,7 @@ const Register = () => {
     } else if (!/^[6-9]\d{9}$/.test(normalizeMobile(form.mobile))) {
       newErrors.mobile = t('common.invalidMobile')
     }
-    if (!form.email.trim()) {
-      newErrors.email = t('common.required')
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
+    if (form.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
       newErrors.email = t('common.invalidEmail')
     }
     if (!form.password) {
@@ -85,14 +83,17 @@ const Register = () => {
     setSubmitError(null)
     try {
       const cleanedMobile = normalizeMobile(form.mobile)
-      const result = await register({
+      const registrationData = {
         full_name: form.fullName,
         mobile: cleanedMobile,
-        email: form.email.trim(),
         password: form.password,
         role: form.role,
         language: language
-      })
+      }
+      const email = form.email.trim()
+      if (email) registrationData.email = email
+
+      const result = await register(registrationData)
       if (!result?.id || result.role !== form.role) {
         throw new Error('The server did not confirm that this account was created. Please try again.')
       }
@@ -214,7 +215,6 @@ const Register = () => {
                   <div className="form-label-wrap">
                     <span className="form-label-icon">📧</span>
                     <span className="form-label-text">{t('register.email')}</span>
-                    <span className="form-required-star">*</span>
                   </div>
                   <FormInput
                     name="email"
@@ -222,7 +222,6 @@ const Register = () => {
                     value={form.email}
                     onChange={handleChange}
                     placeholder={t('register.emailPlaceholder')}
-                    required
                     error={errors.email}
                   />
                 </div>
@@ -234,20 +233,12 @@ const Register = () => {
                     <span className="form-required-star">*</span>
                   </div>
                   <select
+                    className="register-role-select"
                     name="role"
                     value={form.role}
                     onChange={handleChange}
                     required
                     aria-label={t('register.roleLabel')}
-                    style={{
-                      width: '100%',
-                      padding: '14px 16px',
-                      borderRadius: 12,
-                      border: '1px solid var(--glass-border)',
-                      background: 'var(--glass-bg)',
-                      color: 'var(--text-primary)',
-                      font: 'inherit'
-                    }}
                   >
                     <option value="farmer">{t('register.farmerRole')}</option>
                     <option value="buyer">{t('register.buyerRole')}</option>

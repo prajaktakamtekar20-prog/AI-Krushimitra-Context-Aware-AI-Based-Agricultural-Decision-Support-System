@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, useEffect, useRef } from 'react'
 import { authApi, farmerApi, getApiErrorMessage } from '../services/api'
 import { normalizePlantVillageCrop } from '../constants/crops'
+import { normalizeActivities } from '../utils/schemeActivities'
 
 const AuthContext = createContext()
 
@@ -53,7 +54,7 @@ const normalizeProfile = (raw) => {
     age: existingScheme.age ?? p.age ?? null,
     farmer_category: existingScheme.farmer_category ?? existingScheme.category ?? p.farmer_category ?? p.category ?? '',
     land_tenure: existingScheme.land_tenure ?? existingScheme.land_ownership ?? p.land_tenure ?? p.landOwnership ?? '',
-    activities: Array.isArray(existingScheme.activities) ? existingScheme.activities : Array.isArray(p.activities) ? p.activities : [],
+    activities: normalizeActivities(existingScheme.activities ?? p.activities),
     annual_income_band: existingScheme.annual_income_band ?? existingScheme.income_band ?? p.annual_income_band ?? p.incomeBand ?? '',
     already_beneficiary: typeof existingScheme.already_beneficiary === 'boolean' ? existingScheme.already_beneficiary : typeof p.already_beneficiary === 'boolean' ? p.already_beneficiary : null,
   }
@@ -185,27 +186,24 @@ export const AuthProvider = ({ children }) => {
         setToken(account.token)
       }
       let profile = null
-      let cachedProfile = null
       if (account.role !== 'buyer') {
         try {
           profile = await farmerApi.getProfile()
+          if (profile && String(profile.user_id) !== String(account.id)) {
+            profile = null
+            console.error('Farmer profile response did not match the authenticated account.')
+          }
         } catch (profileError) {
           if (!isCurrentSession()) return
-          console.error('Failed to load farmer profile:', profileError)
-          const storedUser = localStorage.getItem(USER_KEY)
-          if (storedUser) {
-            try {
-              cachedProfile = normalizeProfile(JSON.parse(storedUser))
-            } catch (cacheError) {
-              console.error('Cached user profile is invalid:', cacheError)
-            }
-          }
+          console.error(
+            'Failed to load farmer profile (status=%s).',
+            profileError.response?.status ?? 'network error'
+          )
         }
       }
 
       if (!isCurrentSession()) return
       cacheUser({
-        ...(cachedProfile || {}),
         ...account,
         ...(profile || {}),
         id: account.id,
@@ -217,7 +215,10 @@ export const AuthProvider = ({ children }) => {
     } catch (err) {
       if (isCurrentSession()) {
         if (err.response?.status !== 401) {
-          console.error('Failed to verify the current session:', err)
+          console.error(
+            'Failed to verify the current session (status=%s).',
+            err.response?.status ?? 'network error'
+          )
         }
         clearSession()
       }
@@ -264,15 +265,28 @@ export const AuthProvider = ({ children }) => {
   }
 
   const login = async (data) => {
+    const previousToken = localStorage.getItem(TOKEN_KEY)
     try {
       setLoading(true)
       setError(null)
       const result = await authApi.login(data)
-      if (result && result.token) {
-        storeAuthenticatedSession(result)
+      if (!result?.token) {
+        throw new Error('The server did not return an authentication token.')
       }
+      storeAuthenticatedSession(result)
       return result
     } catch (err) {
+      const logoutRequest = previousToken ? authApi.logout(previousToken) : null
+      clearSession()
+      if (logoutRequest) {
+        try {
+          await logoutRequest
+        } catch (logoutError) {
+          if (logoutError.response?.status !== 401) {
+            console.warn('Previous session could not be invalidated after failed login.')
+          }
+        }
+      }
       const msg = getApiErrorMessage(err, 'Login failed')
       setError(msg)
       throw err
@@ -329,6 +343,9 @@ export const AuthProvider = ({ children }) => {
       })
     }
     const profile = await farmerApi.getProfile()
+    if (profile && String(profile.user_id) !== String(account?.id)) {
+      throw new Error('Farmer profile response did not match the authenticated account.')
+    }
     if (profile) {
       return cacheUser({
         ...(account || {}),

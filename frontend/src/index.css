@@ -572,6 +572,42 @@ input, select, textarea {
   color: var(--text-primary);
 }
 
+.register-role-select {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  background: #fff;
+  color: #000;
+  color-scheme: light;
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-role-select option {
+  background: #fff;
+  color: #000;
+}
+
+.register-role-select option:checked {
+  background: #fff;
+  color: #000;
+}
+
+.register-role-select:hover {
+  border-color: var(--glass-border-hover);
+  background-color: #fff;
+}
+
+.register-role-select:focus-visible {
+  outline: 2px solid var(--accent-purple);
+  outline-offset: 2px;
+  border-color: var(--accent-purple);
+  background-color: #fff;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
 .form-select:hover {
   border-color: var(--glass-border-hover);
   background-color: var(--glass-bg-hover);

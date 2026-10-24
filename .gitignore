@@ -1,0 +1,50 @@
+﻿.env
+.env.*
+!.env.example
+
+**/.env
+**/.env.*
+!**/.env.example
+
+.venv/
+.venv-*/
+venv/
+env/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.recovery-backups/
+**/.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local installed Python dependencies
+backend/_pydeps/
+
+# Temporary and generated files
+frontend/.tsupgrader/
+frontend/vite.config.js.timestamp-*.mjs
+backend/_server_status.txt
+backend/_test_*
+backend/_verify_predict.py
+backend/_test_images_downloaded/
+
+# Local backup archive
+farmer-buyer-source-backup-20261013-131603.zip
+
+# Trae local configuration (review before publishing)
+.trae/
+
+# Python virtual environments
+**/.venv/
+**/venv/
+**/env/
+**/.venv-*/
+**/venv-*/
+**/env-*/
+**/venv_*/
+
+# Compiled Python files
+*.pyc

@@ -1,0 +1,84 @@
+[
+  {
+    "category": "Cereals",
+    "crops": [
+      { "value": "Rice", "label": "Rice" },
+      { "value": "Wheat", "label": "Wheat" },
+      { "value": "Corn (Maize)", "label": "Maize", "aliases": ["Corn", "Maize"], "translationKey": "corn" },
+      { "value": "Jowar", "label": "Jowar", "aliases": ["Sorghum"] },
+      { "value": "Bajra", "label": "Bajra", "aliases": ["Pearl Millet"] }
+    ]
+  },
+  {
+    "category": "Pulses",
+    "crops": [
+      { "value": "Chickpea", "label": "Chickpea", "aliases": ["Gram", "Chana"] },
+      { "value": "Pigeon Pea", "label": "Pigeon Pea", "aliases": ["Toor", "Arhar"] },
+      { "value": "Green Gram", "label": "Green Gram", "aliases": ["Moong", "Mung Bean"] },
+      { "value": "Black Gram", "label": "Black Gram", "aliases": ["Urad"] },
+      { "value": "Lentils", "label": "Lentils", "aliases": ["Masoor"] }
+    ]
+  },
+  {
+    "category": "Vegetables",
+    "crops": [
+      { "value": "Tomato", "label": "Tomato", "translationKey": "tomato" },
+      { "value": "Onion", "label": "Onion" },
+      { "value": "Potato", "label": "Potato", "translationKey": "potato" },
+      { "value": "Brinjal", "label": "Brinjal", "aliases": ["Eggplant", "Aubergine"] },
+      { "value": "Cabbage", "label": "Cabbage" },
+      { "value": "Cauliflower", "label": "Cauliflower" },
+      { "value": "Okra", "label": "Okra", "aliases": ["Lady Finger", "Ladyfinger"] },
+      { "value": "Green Chilli", "label": "Green Chilli", "aliases": ["Green Chili"] },
+      { "value": "Bell Pepper", "label": "Capsicum", "aliases": ["Capsicum"], "translationKey": "bell_pepper" },
+      { "value": "Cucumber", "label": "Cucumber" },
+      { "value": "Spinach", "label": "Spinach" }
+    ]
+  },
+  {
+    "category": "Fruits",
+    "crops": [
+      { "value": "Mango", "label": "Mango" },
+      { "value": "Banana", "label": "Banana" },
+      { "value": "Grape", "label": "Grapes", "aliases": ["Grapes"], "translationKey": "grape" },
+      { "value": "Pomegranate", "label": "Pomegranate" },
+      { "value": "Orange", "label": "Orange", "translationKey": "orange" },
+      { "value": "Papaya", "label": "Papaya" },
+      { "value": "Guava", "label": "Guava" },
+      { "value": "Watermelon", "label": "Watermelon" }
+    ]
+  },
+  {
+    "category": "Cash Crops",
+    "crops": [
+      { "value": "Sugarcane", "label": "Sugarcane" },
+      { "value": "Cotton", "label": "Cotton" },
+      { "value": "Soybean", "label": "Soybean", "translationKey": "soybean" },
+      { "value": "Groundnut", "label": "Groundnut", "aliases": ["Peanut"] },
+      { "value": "Sunflower", "label": "Sunflower" },
+      { "value": "Mustard", "label": "Mustard" }
+    ]
+  },
+  {
+    "category": "Spices",
+    "crops": [
+      { "value": "Turmeric", "label": "Turmeric" },
+      { "value": "Ginger", "label": "Ginger" },
+      { "value": "Garlic", "label": "Garlic" },
+      { "value": "Coriander", "label": "Coriander" },
+      { "value": "Cumin", "label": "Cumin" }
+    ]
+  },
+  {
+    "category": "Other Local Crops",
+    "crops": [
+      { "value": "Apple", "label": "Apple", "translationKey": "apple" },
+      { "value": "Blueberry", "label": "Blueberry", "translationKey": "blueberry" },
+      { "value": "Cherry", "label": "Cherry", "translationKey": "cherry" },
+      { "value": "Peach", "label": "Peach", "translationKey": "peach" },
+      { "value": "Raspberry", "label": "Raspberry", "translationKey": "raspberry" },
+      { "value": "Squash", "label": "Squash", "translationKey": "squash" },
+      { "value": "Strawberry", "label": "Strawberry", "translationKey": "strawberry" }
+    ]
+  }
+]

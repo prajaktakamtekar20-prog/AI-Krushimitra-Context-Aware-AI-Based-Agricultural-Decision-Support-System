@@ -1,0 +1,346 @@
+{
+  "en": {
+    "crop": "Corn (Maize)",
+    "disease": "Common Rust of Maize (Puccinia sorghi)",
+    "symptoms": [
+      "Small oval to elongated orange-red pustules (uredinia) on both upper and lower leaf surfaces",
+      "Pustules rupture releasing powdery rust-colored uredospores",
+      "Heavy infection: large areas of leaf die, reducing photosynthetic area and yield",
+      "Later in season, blackish-brown telial pustules develop in same lesions as overwintering stage"
+    ],
+    "causes": [
+      "Obligate biotrophic fungus Puccinia sorghi (macrocyclic, heteroecious - alternate hosts Oxalis spp.)",
+      "Wind-borne uredospores are blown long distances from southern areas into northern corn belts each season",
+      "Favored by cool to moderate temperatures (15-25°C), high humidity, heavy dew, and frequent light rain",
+      "Early planting and susceptible hybrids suffer most damage; late-season infections are less damaging"
+    ],
+    "treatment": [
+      "Foliar spray: Propiconazole 25% EC (0.1%) or Tebuconazole 250 EC (0.1%) when 2-3 pustules per leaf are observed",
+      "Alternative: Mancozeb 75% WP (0.25%) as a protective spray on a 10-day schedule",
+      "Treat most aggressively at tasseling/silking (VT/R1) stage if rust is active on the upper canopy",
+      "Repeat spray at 10-15 day intervals if cool, humid weather persists and pustules continue expanding"
+    ],
+    "prevention": [
+      "Plant resistant or tolerant corn hybrids carrying Rp resistance genes adapted to your region",
+      "Sow early so plants pass critical growth stages before heavy spore arrival",
+      "Use balanced NPK fertilization; avoid excess nitrogen that increases succulent, susceptible growth",
+      "Monitor the crop weekly from knee-high to tassel stage for the first pustules",
+      "Keep field borders mown and remove alternate weed hosts where feasible"
+    ],
+    "diagnosticNote": "This is a preliminary image-model result, not a confirmed diagnosis. Model scores are not calibrated probabilities; ask an agricultural expert to confirm, especially before taking treatment action.",
+    "diagnosticDisclaimer": "The visual analysis agrees with the local classifier's supported crop/disease class. Confidence values are model scores, not calibrated probabilities. Chemical instructions are omitted unless verified against current local product labels. This is a preliminary image-model result, not a confirmed diagnosis. Ask an agricultural expert to confirm it before making treatment decisions.",
+    "partialNotice": "Verified translations are unavailable for: {fields}. These details remain in their original language.",
+    "fieldLabels": {
+      "crop_display": "crop name",
+      "disease_display": "disease name",
+      "severity": "severity",
+      "symptoms": "symptoms",
+      "possible_causes": "causes",
+      "recommended_management": "treatment",
+      "prevention": "prevention",
+      "safety_warnings": "safety warnings",
+      "warnings": "warnings",
+      "precautions": "precautions",
+      "diagnostic_note": "diagnostic note",
+      "error": "error"
+    },
+    "grayLeafSpot": {
+      "crop": "Corn (Maize)",
+      "disease": "Gray Leaf Spot (Cercospora zeae-maydis)",
+      "severity": "Moderate to Severe",
+      "symptoms": [
+        "Small, rectangular, necrotic lesions (1-4 mm) bounded by veins on lower leaves",
+        "Lesions initially tan then turn gray-brown; expand into long narrow rectangular streaks parallel to veins",
+        "Lesions coalesce to blight large portions of leaf; severe yield loss on susceptible hybrids",
+        "Disease progresses from lower canopy upward; favored by no-till and continuous corn"
+      ],
+      "causes": [
+        "Fungal pathogen Cercospora zeae-maydis / C. zeina",
+        "Overwinters as mycelium and stromata in corn residue on soil surface",
+        "Spores (conidia) dispersed by wind and rain splash; infection requires 12-24+ hours leaf wetness at 22-30°C",
+        "Favored by humid, cloudy, dewy conditions, minimum tillage, and corn-after-corn rotation"
+      ],
+      "treatment": [
+        "Foliar fungicides: Tebuconazole 250 EC, Propiconazole, or Pyraclostrobin (QoI) + Mancozeb combination",
+        "Treat at VT/R1 (tassel/silking) stage when lesions first appear on ear leaf or below",
+        "Repeat application after 14-21 days if disease pressure continues and weather favorable",
+        "Apply protectant + systemic combination tank-mix in high-pressure fields"
+      ],
+      "prevention": [
+        "Plant GLS-resistant or tolerant corn hybrids for your region (most effective)",
+        "Crop rotation with non-host crops (soybean, legumes, cotton) for minimum 1-2 years",
+        "Reduce / bury corn residue with tillage if GLS history is severe in field",
+        "Balanced NPK fertilization; avoid excessive nitrogen that increases canopy humidity",
+        "Optimum plant population and row spacing to improve air movement and lower RH in canopy"
+      ],
+      "diagnosticNote": "This is a preliminary image-model result, not a confirmed diagnosis. Model scores are not calibrated probabilities; ask an agricultural expert to confirm, especially before taking treatment action.",
+      "safetyWarning": "Use only locally registered agrochemicals for this crop and problem; always read and follow the product label, local agricultural extension recommendations, and respect re-entry / pre-harvest intervals."
+    },
+    "severityLabels": {
+      "Mild (None)": "Mild (None)",
+      "Mild": "Mild",
+      "Mild to Moderate": "Mild to Moderate",
+      "Moderate": "Moderate",
+      "Moderate to Severe": "Moderate to Severe",
+      "Severe": "Severe"
+    }
+  },
+  "mr": {
+    "crop": "मका (कॉर्न)",
+    "disease": "मक्यावरील सामान्य तांबेरा रोग (Puccinia sorghi)",
+    "symptoms": [
+      "पानांच्या वरच्या आणि खालच्या दोन्ही बाजूंवर लहान अंडाकृती ते लांबट नारिंगी-लाल पूळ्या (uredinia) दिसतात",
+      "पूळ्या फुटून तांबेरा रंगाचे भुकटीसारखे uredospores बाहेर पडतात",
+      "तीव्र प्रादुर्भावात पानांचा मोठा भाग वाळतो, त्यामुळे प्रकाशसंश्लेषणाचे क्षेत्र आणि उत्पादन कमी होते",
+      "हंगामाच्या उत्तरार्धात त्याच डागांमध्ये काळसर-तपकिरी telial पूळ्या तयार होतात; हा रोगाचा हिवाळ्यात टिकणारा टप्पा आहे"
+    ],
+    "causes": [
+      "Puccinia sorghi हा अनिवार्य जैवपोषी बुरशीजन्य रोगकारक आहे (macrocyclic, heteroecious; Oxalis spp. हे पर्यायी यजमान आहेत)",
+      "वाऱ्याने वाहून जाणारे uredospores दर हंगामात दक्षिणेकडून उत्तरेकडील मका पट्ट्यांपर्यंत लांब अंतरावर पोहोचतात",
+      "थंड ते मध्यम तापमान (15-25°C), जास्त आर्द्रता, दव आणि वारंवार हलका पाऊस रोगासाठी अनुकूल असतो",
+      "लवकर पेरणी केलेली आणि संवेदनशील संकरित वाणांची पिके सर्वाधिक बाधित होतात; हंगामाच्या शेवटी होणारा प्रादुर्भाव तुलनेने कमी नुकसानकारक असतो"
+    ],
+    "treatment": [
+      "पानांवर फवारणी: प्रति पान 2-3 पूळ्या दिसल्यावर Propiconazole 25% EC (0.1%) किंवा Tebuconazole 250 EC (0.1%) वापरा",
+      "पर्याय: संरक्षणात्मक फवारणी म्हणून Mancozeb 75% WP (0.25%) दहा दिवसांच्या अंतराने वापरा",
+      "तांबेरा रोग वरच्या पानांवर सक्रिय असल्यास तुरा येणे/रेशीम धागे येण्याच्या (VT/R1) अवस्थेत प्रभावी उपचार करा",
+      "थंड आणि दमट हवामान कायम राहून पूळ्या वाढत असल्यास 10-15 दिवसांनी फवारणी पुन्हा करा"
+    ],
+    "prevention": [
+      "तुमच्या भागासाठी योग्य Rp प्रतिकार जनुके असलेले रोगप्रतिकारक किंवा सहनशील मका संकरित वाण निवडा",
+      "जोरदार बीजाणू प्रसार होण्यापूर्वी पीक महत्त्वाच्या वाढीच्या अवस्था पार करेल अशा प्रकारे लवकर पेरणी करा",
+      "संतुलित NPK खत व्यवस्थापन करा; कोवळी आणि रोगास संवेदनशील वाढ वाढवणारा अतिरिक्त नत्र वापर टाळा",
+      "गुडघ्याएवढ्या उंचीपासून तुरा येण्याच्या अवस्थेपर्यंत आठवड्यातून एकदा पहिल्या पूळ्यांसाठी पिकाची पाहणी करा",
+      "शेताच्या बांधावरील गवत नियमित कापा आणि शक्य असल्यास पर्यायी तण-यजमान काढून टाका"
+    ],
+    "diagnosticNote": "हा प्रतिमा-मॉडेलचा प्राथमिक निकाल आहे; निश्चित निदान नाही. मॉडेलचे गुण हे मोजून निश्चित केलेल्या संभाव्यता नाहीत. उपचार करण्यापूर्वी, विशेषतः, कृषी तज्ज्ञांकडून पुष्टी करून घ्या.",
+    "diagnosticDisclaimer": "दृश्य विश्लेषण स्थानिक वर्गीकरण मॉडेलने समर्थित केलेल्या पीक व रोगाच्या वर्गाशी सहमत आहे. विश्वास गुण हे मॉडेलचे गुण आहेत; ते मोजून निश्चित केलेल्या संभाव्यता नाहीत. सध्याच्या स्थानिक उत्पादन-लेबलांनुसार पडताळणी झालेली नसेल, तर रासायनिक वापराच्या सूचना दिल्या जात नाहीत. हा प्रतिमा-मॉडेलचा प्राथमिक निकाल आहे; निश्चित निदान नाही. उपचाराचा निर्णय घेण्यापूर्वी कृषी तज्ज्ञांकडून याची पुष्टी करून घ्या.",
+    "partialNotice": "या तपशीलांचे प्रमाणित भाषांतर उपलब्ध नाही: {fields}. हे तपशील मूळ भाषेतच दाखवले आहेत.",
+    "fieldLabels": {
+      "crop_display": "पिकाचे नाव",
+      "disease_display": "रोगाचे नाव",
+      "severity": "तीव्रता",
+      "symptoms": "लक्षणे",
+      "possible_causes": "कारणे",
+      "recommended_management": "उपचार",
+      "prevention": "प्रतिबंध",
+      "safety_warnings": "सुरक्षिततेच्या सूचना",
+      "warnings": "इशारे",
+      "precautions": "खबरदारी",
+      "diagnostic_note": "निदानाची नोंद",
+      "error": "त्रुटी"
+    },
+    "grayLeafSpot": {
+      "crop": "मका",
+      "disease": "मक्यावरील करड्या पानावरील ठिपक्यांचा रोग (Cercospora zeae-maydis)",
+      "severity": "मध्यम ते तीव्र",
+      "symptoms": [
+        "खालच्या पानांवर शिरांनी मर्यादित, लहान आयताकृती मृत ऊतींचे डाग (1-4 mm) दिसतात",
+        "डाग सुरुवातीला फिकट तपकिरी असतात, नंतर करडे-तपकिरी होतात; ते शिरांना समांतर लांब, अरुंद आयताकृती पट्ट्यांत वाढतात",
+        "डाग एकत्र येऊन पानाचा मोठा भाग करपवतात; रोगास संवेदनशील संकरित वाणांत उत्पादनाचे मोठे नुकसान होऊ शकते",
+        "रोग खालच्या पर्णछत्रापासून वरच्या दिशेने पसरतो; नांगरट न करणे आणि सलग मका घेणे रोगाला अनुकूल ठरते"
+      ],
+      "causes": [
+        "Cercospora zeae-maydis / C. zeina ही बुरशी रोगकारक आहे",
+        "जमिनीच्या पृष्ठभागावरील मक्याच्या अवशेषांत बुरशीचे तंतू आणि स्ट्रोमाटा स्वरूपात रोगकारक हिवाळ्यात टिकून राहतो",
+        "बीजाणू (कॉनिडिया) वारा आणि पावसाच्या तुषारांनी पसरतात; 22-30°C तापमानात पानांवर 12-24+ तास ओलावा राहिल्यास संसर्ग होतो",
+        "दमट, ढगाळ आणि दव पडणारे हवामान, कमीतकमी मशागत आणि मक्यानंतर पुन्हा मका घेणे रोगाला अनुकूल असते"
+      ],
+      "treatment": [
+        "पानांवरील बुरशीनाशकांसाठी: Tebuconazole 250 EC, Propiconazole किंवा Pyraclostrobin (QoI) + Mancozeb यांचे संयोजन",
+        "कणसाच्या पानावर किंवा त्याखाली पहिले डाग दिसल्यास तुरा येणे/रेशीम येणे (VT/R1) अवस्थेत उपचार करा",
+        "रोगाचा प्रादुर्भाव कायम राहिला आणि हवामान अनुकूल असेल तर 14-21 दिवसांनी पुन्हा फवारणी करा",
+        "रोगाचा धोका जास्त असलेल्या शेतात संरक्षक + प्रणालीगत बुरशीनाशकांचे टँक-मिश्रण वापरा"
+      ],
+      "prevention": [
+        "तुमच्या भागासाठी ग्रे लीफ स्पॉटला प्रतिकारक किंवा सहनशील मका संकरित वाण लावा (हा सर्वाधिक प्रभावी उपाय आहे)",
+        "किमान 1-2 वर्षे मका नसलेल्या पिकांसोबत (सोयाबीन, कडधान्ये, कापूस) पीक फेरपालट करा",
+        "शेतात ग्रे लीफ स्पॉटचा इतिहास गंभीर असल्यास मशागतीने मक्याचे अवशेष कमी करा किंवा जमिनीत गाडा",
+        "संतुलित NPK खत व्यवस्थापन करा; पर्णछत्रातील आर्द्रता वाढवणारा अतिरिक्त नत्र टाळा",
+        "हवेचा प्रवाह सुधारण्यासाठी आणि पर्णछत्रातील सापेक्ष आर्द्रता कमी करण्यासाठी योग्य रोपसंख्या व ओळींतील अंतर ठेवा"
+      ],
+      "diagnosticNote": "हा प्रतिमा-मॉडेलचा प्राथमिक निकाल आहे; निश्चित निदान नाही. मॉडेलचे गुण हे मोजून निश्चित केलेल्या संभाव्यता नाहीत. उपचार करण्यापूर्वी, विशेषतः, कृषी तज्ज्ञांकडून पुष्टी करून घ्या.",
+      "safetyWarning": "या पिकासाठी आणि समस्येसाठी स्थानिक पातळीवर नोंदणीकृत कृषी-रसायनेच वापरा; उत्पादनाच्या लेबलवरील सूचना आणि स्थानिक कृषी विस्तार सेवेच्या शिफारसी वाचा व पाळा, तसेच पुनःप्रवेश आणि काढणीपूर्व प्रतीक्षा कालावधी पाळा."
+    },
+    "severityLabels": {
+      "Mild (None)": "सौम्य (रोग नाही)",
+      "Mild": "सौम्य",
+      "Mild to Moderate": "सौम्य ते मध्यम",
+      "Moderate": "मध्यम",
+      "Moderate to Severe": "मध्यम ते तीव्र",
+      "Severe": "तीव्र"
+    }
+  },
+  "hi": {
+    "crop": "मक्का",
+    "disease": "मक्के का सामान्य रतुआ रोग (Puccinia sorghi)",
+    "symptoms": [
+      "पत्तियों की ऊपरी और निचली दोनों सतहों पर छोटी अंडाकार से लंबी नारंगी-लाल फुंसियाँ (uredinia) दिखाई देती हैं",
+      "फुंसियाँ फटकर पाउडर जैसे जंग-रंग के uredospores छोड़ती हैं",
+      "भारी संक्रमण में पत्तियों का बड़ा भाग सूख जाता है, जिससे प्रकाश संश्लेषण क्षेत्र और उपज घटती है",
+      "मौसम के अंत में उन्हीं घावों में काली-भूरी telial फुंसियाँ बनती हैं, जो रोग का शीतकालीन चरण है"
+    ],
+    "causes": [
+      "Puccinia sorghi अनिवार्य जैवपोषी कवक है (macrocyclic, heteroecious; Oxalis spp. वैकल्पिक मेज़बान हैं)",
+      "हवा से फैलने वाले uredospores हर मौसम में दक्षिणी क्षेत्रों से उत्तरी मक्का क्षेत्रों तक लंबी दूरी तय करते हैं",
+      "ठंडा से मध्यम तापमान (15-25°C), अधिक नमी, भारी ओस और बार-बार हल्की बारिश रोग के लिए अनुकूल हैं",
+      "जल्दी बोई गई और संवेदनशील संकर किस्मों को सबसे अधिक नुकसान होता है; देर मौसम का संक्रमण कम नुकसानकारक होता है"
+    ],
+    "treatment": [
+      "पत्तियों पर छिड़काव: प्रति पत्ती 2-3 फुंसियाँ दिखने पर Propiconazole 25% EC (0.1%) या Tebuconazole 250 EC (0.1%) दें",
+      "विकल्प: सुरक्षा छिड़काव के रूप में Mancozeb 75% WP (0.25%) को 10 दिन के अंतर पर दें",
+      "यदि ऊपरी पत्तियों में रतुआ सक्रिय हो तो तुरा आने/रेशमी बाल निकलने (VT/R1) की अवस्था में सबसे प्रभावी उपचार करें",
+      "ठंडा, नम मौसम बना रहे और फुंसियाँ बढ़ती रहें तो 10-15 दिन के अंतर पर छिड़काव दोहराएँ"
+    ],
+    "prevention": [
+      "अपने क्षेत्र के अनुकूल Rp प्रतिरोध जीन वाली रोगरोधी या सहनशील मक्का संकर किस्में लगाएँ",
+      "भारी बीजाणु आने से पहले फसल महत्वपूर्ण वृद्धि अवस्थाएँ पार कर सके, इसके लिए जल्दी बुवाई करें",
+      "संतुलित NPK उर्वरक दें; अधिक नाइट्रोजन से होने वाली कोमल, रोग-संवेदनशील वृद्धि से बचें",
+      "घुटने जितनी ऊँचाई से तुरा आने की अवस्था तक हर सप्ताह पहली फुंसियों के लिए फसल की जाँच करें",
+      "खेत की मेड़ों की घास काटते रहें और जहाँ संभव हो वैकल्पिक खरपतवार मेज़बान हटाएँ"
+    ],
+    "diagnosticNote": "यह छवि-मॉडल का प्रारंभिक परिणाम है, पुष्टि किया हुआ निदान नहीं। मॉडल स्कोर मापी हुई निश्चित संभावनाएं नहीं हैं; उपचार करने से पहले, विशेषकर, कृषि विशेषज्ञ से इसकी पुष्टि करें।",
+    "diagnosticDisclaimer": "दृश्य विश्लेषण स्थानीय वर्गीकरण मॉडल द्वारा समर्थित फसल और रोग वर्ग से सहमत है। विश्वास स्कोर मॉडल के स्कोर हैं, मापी हुई निश्चित संभावनाएं नहीं। मौजूदा स्थानीय उत्पाद लेबलों से सत्यापन न होने पर रासायनिक उपयोग के निर्देश नहीं दिए जाते। यह छवि-मॉडल का प्रारंभिक परिणाम है, पुष्टि किया हुआ निदान नहीं। उपचार का निर्णय लेने से पहले कृषि विशेषज्ञ से इसकी पुष्टि कराएँ।",
+    "partialNotice": "इन विवरणों के सत्यापित अनुवाद उपलब्ध नहीं हैं: {fields}। ये विवरण मूल भाषा में दिखाए गए हैं।",
+    "fieldLabels": {
+      "crop_display": "फसल का नाम",
+      "disease_display": "रोग का नाम",
+      "severity": "गंभीरता",
+      "symptoms": "लक्षण",
+      "possible_causes": "कारण",
+      "recommended_management": "उपचार",
+      "prevention": "बचाव",
+      "safety_warnings": "सुरक्षा चेतावनियाँ",
+      "warnings": "चेतावनियाँ",
+      "precautions": "सावधानियाँ",
+      "diagnostic_note": "निदान टिप्पणी",
+      "error": "त्रुटि"
+    },
+    "grayLeafSpot": {
+      "crop": "मक्का",
+      "disease": "मक्के का धूसर पत्ती धब्बा रोग (Cercospora zeae-maydis)",
+      "severity": "मध्यम से गंभीर",
+      "symptoms": [
+        "निचली पत्तियों पर नसों से घिरे छोटे, आयताकार मृत ऊतक के धब्बे (1-4 mm) दिखाई देते हैं",
+        "धब्बे शुरुआत में हल्के भूरे होते हैं, फिर धूसर-भूरे हो जाते हैं; वे नसों के समानांतर लंबी, संकरी आयताकार धारियों में फैलते हैं",
+        "धब्बे मिलकर पत्ती के बड़े हिस्से को झुलसा सकते हैं; संवेदनशील संकर किस्मों में उपज का भारी नुकसान हो सकता है",
+        "रोग निचली पत्तियों से ऊपर की ओर बढ़ता है; बिना जुताई और लगातार मक्का उगाना इसके अनुकूल है"
+      ],
+      "causes": [
+        "Cercospora zeae-maydis / C. zeina कवक रोगजनक है",
+        "यह रोगजनक मिट्टी की सतह पर मक्के के अवशेषों में कवक-जाल और स्ट्रोमाटा के रूप में सर्दियों में जीवित रहता है",
+        "बीजाणु (कोनिडिया) हवा और बारिश की छींटों से फैलते हैं; 22-30°C पर पत्तियों का 12-24+ घंटे गीला रहना संक्रमण के लिए आवश्यक है",
+        "नम, बादलयुक्त और ओस वाली स्थितियां, न्यूनतम जुताई और मक्का के बाद मक्का उगाना रोग को बढ़ावा देते हैं"
+      ],
+      "treatment": [
+        "पत्तियों पर उपयोग के लिए फफूंदनाशक: Tebuconazole 250 EC, Propiconazole, या Pyraclostrobin (QoI) + Mancozeb का संयोजन",
+        "भुट्टे की पत्ती या उससे नीचे पहले धब्बे दिखने पर नर पुष्पक्रम आने/रेशमी बाल निकलने (VT/R1) की अवस्था में उपचार करें",
+        "यदि रोग का दबाव बना रहे और मौसम अनुकूल हो, तो 14-21 दिनों बाद दोबारा छिड़काव करें",
+        "रोग का दबाव अधिक वाले खेतों में सुरक्षात्मक + प्रणालीगत फफूंदनाशकों का टैंक-मिश्रण लगाएं"
+      ],
+      "prevention": [
+        "अपने क्षेत्र के लिए ग्रे लीफ स्पॉट प्रतिरोधी या सहनशील मक्का संकर किस्में लगाएं (सबसे प्रभावी उपाय)",
+        "कम-से-कम 1-2 वर्षों तक गैर-मेज़बान फसलों (सोयाबीन, दलहन, कपास) के साथ फसल चक्र अपनाएं",
+        "यदि खेत में ग्रे लीफ स्पॉट का गंभीर इतिहास है, तो जुताई करके मक्के के अवशेष कम करें या मिट्टी में दबाएं",
+        "संतुलित NPK उर्वरक दें; पत्तियों के फैलाव में नमी बढ़ाने वाले अतिरिक्त नाइट्रोजन से बचें",
+        "हवा का आवागमन बेहतर करने और पत्तियों के फैलाव में सापेक्ष आर्द्रता घटाने के लिए उचित पौध संख्या और कतार-दूरी रखें"
+      ],
+      "diagnosticNote": "यह छवि-मॉडल का प्रारंभिक परिणाम है, पुष्टि किया हुआ निदान नहीं। मॉडल स्कोर मापी हुई निश्चित संभावनाएं नहीं हैं; उपचार करने से पहले, विशेषकर, कृषि विशेषज्ञ से इसकी पुष्टि करें।",
+      "safetyWarning": "इस फसल और समस्या के लिए केवल स्थानीय रूप से पंजीकृत कृषि-रसायनों का उपयोग करें; उत्पाद लेबल और स्थानीय कृषि विस्तार सेवा की सिफारिशें पढ़ें और मानें, तथा पुनःप्रवेश और कटाई-पूर्व प्रतीक्षा अवधि का पालन करें।"
+    },
+    "severityLabels": {
+      "Mild (None)": "हल्का (कोई रोग नहीं)",
+      "Mild": "हल्का",
+      "Mild to Moderate": "हल्का से मध्यम",
+      "Moderate": "मध्यम",
+      "Moderate to Severe": "मध्यम से गंभीर",
+      "Severe": "गंभीर"
+    }
+  },
+  "ml": {
+    "crop": "ചോളം (മൈസ്)",
+    "disease": "ചോളത്തിലെ സാധാരണ തുരുമ്പ് രോഗം (Puccinia sorghi)",
+    "symptoms": [
+      "ഇലകളുടെ മുകളിലും താഴെയും ചെറിയ അണ്ഡാകൃതിയിലുള്ളതോ നീണ്ടതോ ആയ ഓറഞ്ച്-ചുവപ്പ് പുള്ളികൾ (uredinia) കാണപ്പെടുന്നു",
+      "ഈ പുള്ളികൾ പൊട്ടി തുരുമ്പ് നിറത്തിലുള്ള പൊടിപോലുള്ള uredospores പുറത്തുവിടുന്നു",
+      "തീവ്രബാധയിൽ ഇലയുടെ വലിയ ഭാഗങ്ങൾ ഉണങ്ങുകയും പ്രകാശസംശ്ലേഷണ വിസ്തീർണ്ണവും വിളവും കുറയുകയും ചെയ്യുന്നു",
+      "സീസണിന്റെ അവസാനം അതേ പാടുകളിൽ കറുപ്പ്-തവിട്ട് telial പുള്ളികൾ രൂപപ്പെടുന്നു; ഇത് രോഗത്തിന്റെ അതിജീവന ഘട്ടമാണ്"
+    ],
+    "causes": [
+      "Puccinia sorghi എന്ന നിർബന്ധിത ജൈവപോഷി ഫംഗസാണ് രോഗകാരണം (macrocyclic, heteroecious; Oxalis spp. പകരം ആതിഥേയങ്ങളാണ്)",
+      "കാറ്റിലൂടെ പകരുന്ന uredospores ഓരോ സീസണിലും തെക്കൻ പ്രദേശങ്ങളിൽ നിന്ന് വടക്കൻ ചോളം മേഖലകളിലേക്ക് ദൂരെയെത്തുന്നു",
+      "തണുത്തതോ മിതമായതോ ആയ താപനില (15-25°C), ഉയർന്ന ഈർപ്പം, കനത്ത മഞ്ഞ്, ഇടയ്ക്കിടെയുള്ള നേരിയ മഴ എന്നിവ രോഗത്തിന് അനുകൂലമാണ്",
+      "നേരത്തെ വിതച്ചതും രോഗസാധ്യതയുള്ളതുമായ സങ്കരയിനങ്ങൾക്കാണ് കൂടുതൽ നാശം; സീസണിന്റെ അവസാനം ഉണ്ടാകുന്ന ബാധ കുറവ് നാശകരമാണ്"
+    ],
+    "treatment": [
+      "ഇലകളിൽ തളിക്കുക: ഓരോ ഇലയിലും 2-3 പുള്ളികൾ കണ്ടാൽ Propiconazole 25% EC (0.1%) അല്ലെങ്കിൽ Tebuconazole 250 EC (0.1%) ഉപയോഗിക്കുക",
+      "പകരം: സംരക്ഷണ തളിക്കലായി Mancozeb 75% WP (0.25%) പത്ത് ദിവസത്തെ ഇടവേളയിൽ ഉപയോഗിക്കുക",
+      "മുകളിലെ ഇലക്കുടയിൽ തുരുമ്പ് സജീവമാണെങ്കിൽ കതിരിടൽ/സിൽക്ക് പുറത്തുവരുന്ന (VT/R1) ഘട്ടത്തിൽ ശക്തമായ ചികിത്സ നടത്തുക",
+      "തണുത്ത ഈർപ്പമുള്ള കാലാവസ്ഥ തുടരുകയും പുള്ളികൾ വലുതാകുകയും ചെയ്താൽ 10-15 ദിവസത്തെ ഇടവേളയിൽ തളിക്കൽ ആവർത്തിക്കുക"
+    ],
+    "prevention": [
+      "നിങ്ങളുടെ പ്രദേശത്തിന് അനുയോജ്യമായ Rp പ്രതിരോധ ജീനുകളുള്ള രോഗപ്രതിരോധശേഷിയുള്ള ചോളം സങ്കരയിനങ്ങൾ നടുക",
+      "കൂടുതൽ ബീജാണുക്കൾ എത്തുന്നതിന് മുമ്പ് നിർണായക വളർച്ചാ ഘട്ടങ്ങൾ കടക്കാൻ നേരത്തെ വിതയ്ക്കുക",
+      "സമതുലിതമായ NPK വളപ്രയോഗം നടത്തുക; രോഗസാധ്യതയുള്ള മൃദുവായ വളർച്ച ഉണ്ടാക്കുന്ന അധിക നൈട്രജൻ ഒഴിവാക്കുക",
+      "മുട്ടോളം ഉയരം മുതൽ കതിരിടൽ ഘട്ടം വരെ ആഴ്ചതോറും ആദ്യ പുള്ളികൾക്കായി വിള പരിശോധിക്കുക",
+      "വയൽ അതിരുകളിലെ പുല്ല് വെട്ടി സൂക്ഷിക്കുകയും സാധ്യമെങ്കിൽ പകരം ആതിഥേയമായ കളകൾ നീക്കം ചെയ്യുകയും ചെയ്യുക"
+    ],
+    "diagnosticNote": "ഇത് ചിത്രാധിഷ്ഠിത മോഡലിന്റെ പ്രാഥമിക ഫലമാണ്; സ്ഥിരീകരിച്ച രോഗനിർണയമല്ല. മോഡലിന്റെ സ്കോറുകൾ അളന്നുറപ്പിച്ച സാധ്യതകളല്ല. ചികിത്സാ നടപടി സ്വീകരിക്കുന്നതിന് മുമ്പ്, പ്രത്യേകിച്ച്, കാർഷിക വിദഗ്ധനോട് സ്ഥിരീകരിക്കുക.",
+    "diagnosticDisclaimer": "ദൃശ്യ വിശകലനം പ്രാദേശിക ക്ലാസിഫയർ പിന്തുണയ്ക്കുന്ന വിള-രോഗ വിഭാഗവുമായി പൊരുത്തപ്പെടുന്നു. ആത്മവിശ്വാസ സ്കോറുകൾ മോഡലിന്റെ സ്കോറുകളാണ്; അവ അളന്നുറപ്പിച്ച സാധ്യതകളല്ല. നിലവിലെ പ്രാദേശിക ഉൽപ്പന്ന ലേബലുകൾ പരിശോധിച്ച് ഉറപ്പാക്കിയിട്ടില്ലെങ്കിൽ രാസപ്രയോഗ നിർദേശങ്ങൾ നൽകില്ല. ഇത് ചിത്രാധിഷ്ഠിത മോഡലിന്റെ പ്രാഥമിക ഫലമാണ്; സ്ഥിരീകരിച്ച രോഗനിർണയമല്ല. ചികിത്സാ തീരുമാനം എടുക്കുന്നതിന് മുമ്പ് ഒരു കാർഷിക വിദഗ്ധനോട് ഇത് സ്ഥിരീകരിക്കുക.",
+    "partialNotice": "ഈ വിവരങ്ങൾക്ക് സ്ഥിരീകരിച്ച വിവർത്തനം ലഭ്യമല്ല: {fields}. ഈ വിവരങ്ങൾ യഥാർത്ഥ ഭാഷയിൽ കാണിച്ചിരിക്കുന്നു.",
+    "fieldLabels": {
+      "crop_display": "വിളയുടെ പേര്",
+      "disease_display": "രോഗത്തിന്റെ പേര്",
+      "severity": "തീവ്രത",
+      "symptoms": "ലക്ഷണങ്ങൾ",
+      "possible_causes": "കാരണങ്ങൾ",
+      "recommended_management": "ചികിത്സ",
+      "prevention": "പ്രതിരോധം",
+      "safety_warnings": "സുരക്ഷാ മുന്നറിയിപ്പുകൾ",
+      "warnings": "മുന്നറിയിപ്പുകൾ",
+      "precautions": "മുൻകരുതലുകൾ",
+      "diagnostic_note": "രോഗനിർണയ കുറിപ്പ്",
+      "error": "പിശക്"
+    },
+    "grayLeafSpot": {
+      "crop": "ചോളം",
+      "disease": "ചോളത്തിലെ ചാരനിറ ഇലപ്പുള്ളി രോഗം (Cercospora zeae-maydis)",
+      "severity": "മിതമായത് മുതൽ ഗുരുതരം വരെ",
+      "symptoms": [
+        "താഴത്തെ ഇലകളിൽ ഞരമ്പുകൾക്കിടയിൽ ഒതുങ്ങിനിൽക്കുന്ന ചെറിയ ചതുരാകൃതിയിലുള്ള നിർജീവ പാടുകൾ (1-4 mm) കാണപ്പെടുന്നു",
+        "പാടുകൾ ആദ്യം ഇളം തവിട്ടുനിറമായിരിക്കും; പിന്നീട് ചാര-തവിട്ടുനിറമായി ഞരമ്പുകൾക്ക് സമാന്തരമായി നീളമുള്ള ഇടുങ്ങിയ ചതുരാകൃതിയിലുള്ള വരകളായി വ്യാപിക്കുന്നു",
+        "പാടുകൾ കൂടിച്ചേർന്ന് ഇലയുടെ വലിയ ഭാഗങ്ങൾ കരിയാൻ ഇടയാക്കും; രോഗസാധ്യതയുള്ള സങ്കരയിനങ്ങളിൽ വിളവിൽ വലിയ നഷ്ടമുണ്ടാകാം",
+        "രോഗം താഴത്തെ ഇലക്കുടയിൽ നിന്ന് മുകളിലേക്ക് പടരുന്നു; ഉഴുതുമറിക്കാതെയുള്ള കൃഷിയും തുടർച്ചയായി ചോളം കൃഷി ചെയ്യുന്നതും രോഗത്തിന് അനുകൂലമാണ്"
+      ],
+      "causes": [
+        "Cercospora zeae-maydis / C. zeina എന്ന ഫംഗസാണ് രോഗകാരണം",
+        "മണ്ണിന്റെ ഉപരിതലത്തിലുള്ള ചോളാവശിഷ്ടങ്ങളിൽ ഫംഗസ് നൂലുകളുടെയും സ്ട്രോമാറ്റയുടെയും രൂപത്തിൽ രോഗകാരി ശീതകാലം അതിജീവിക്കുന്നു",
+        "ബീജാണുക്കൾ (കോനിഡിയ) കാറ്റിലൂടെയും മഴത്തുള്ളികളുടെ തെറിപ്പിലൂടെയും പടരുന്നു; 22-30°C താപനിലയിൽ ഇലകൾ 12-24+ മണിക്കൂർ നനഞ്ഞിരിക്കുമ്പോഴാണ് അണുബാധ ഉണ്ടാകുന്നത്",
+        "ഈർപ്പമുള്ളതും മേഘാവൃതവും മഞ്ഞുള്ളതുമായ കാലാവസ്ഥ, കുറഞ്ഞ ഉഴവ്, ചോളത്തിന് പിന്നാലെ വീണ്ടും ചോളം കൃഷി ചെയ്യൽ എന്നിവ രോഗത്തിന് അനുകൂലമാണ്"
+      ],
+      "treatment": [
+        "ഇലകളിൽ തളിക്കുന്ന കുമിൾനാശിനികൾ: Tebuconazole 250 EC, Propiconazole, അല്ലെങ്കിൽ Pyraclostrobin (QoI) + Mancozeb സംയോജനം",
+        "കതിരിന്റെ ഇലയിലോ അതിന് താഴെയോ ആദ്യ പാടുകൾ കണ്ടാൽ കതിരിടൽ/സിൽക്കിംഗ് (VT/R1) ഘട്ടത്തിൽ ചികിത്സിക്കുക",
+        "രോഗസമ്മർദം തുടരുകയും കാലാവസ്ഥ അനുകൂലമാകുകയും ചെയ്താൽ 14-21 ദിവസത്തിന് ശേഷം വീണ്ടും തളിക്കുക",
+        "രോഗസമ്മർദം കൂടുതലുള്ള വയലുകളിൽ സംരക്ഷക + സിസ്റ്റമിക് കുമിൾനാശിനികളുടെ ടാങ്ക് മിശ്രിതം ഉപയോഗിക്കുക"
+      ],
+      "prevention": [
+        "നിങ്ങളുടെ പ്രദേശത്തിന് അനുയോജ്യമായ ചാരനിറ ഇലപ്പുള്ളി പ്രതിരോധശേഷിയുള്ളതോ സഹിഷ്ണുതയുള്ളതോ ആയ ചോളം സങ്കരയിനങ്ങൾ നടുക (ഏറ്റവും ഫലപ്രദമായ മാർഗം)",
+        "കുറഞ്ഞത് 1-2 വർഷത്തേക്ക് ആതിഥേയമല്ലാത്ത വിളകളായ (സോയാബീൻ, പയർവർഗങ്ങൾ, പരുത്തി) വിളമാറ്റം നടത്തുക",
+        "വയലിൽ ചാരനിറ ഇലപ്പുള്ളി ഗുരുതരമായി ഉണ്ടായിട്ടുണ്ടെങ്കിൽ, ഉഴുത് ചോളാവശിഷ്ടങ്ങൾ കുറയ്ക്കുകയോ മണ്ണിൽ മൂടുകയോ ചെയ്യുക",
+        "സമതുലിതമായ NPK വളപ്രയോഗം നടത്തുക; ഇലക്കുടയിലെ ഈർപ്പം കൂട്ടുന്ന അധിക നൈട്രജൻ ഒഴിവാക്കുക",
+        "വായുസഞ്ചാരം മെച്ചപ്പെടുത്താനും ഇലക്കുടയിലെ ആപേക്ഷിക ഈർപ്പം കുറയ്ക്കാനും അനുയോജ്യമായ ചെടികളുടെ എണ്ണവും വരികൾക്കിടയിലെ അകലവും പാലിക്കുക"
+      ],
+      "diagnosticNote": "ഇത് ചിത്രാധിഷ്ഠിത മോഡലിന്റെ പ്രാഥമിക ഫലമാണ്; സ്ഥിരീകരിച്ച രോഗനിർണയമല്ല. മോഡലിന്റെ സ്കോറുകൾ അളന്നുറപ്പിച്ച സാധ്യതകളല്ല. ചികിത്സാ നടപടി സ്വീകരിക്കുന്നതിന് മുമ്പ്, പ്രത്യേകിച്ച്, കാർഷിക വിദഗ്ധനോട് സ്ഥിരീകരിക്കുക.",
+      "safetyWarning": "ഈ വിളയ്ക്കും പ്രശ്നത്തിനും പ്രാദേശികമായി രജിസ്റ്റർ ചെയ്ത കാർഷിക രാസവസ്തുക്കൾ മാത്രം ഉപയോഗിക്കുക; ഉൽപ്പന്ന ലേബലും പ്രാദേശിക കാർഷിക വിപുലീകരണ നിർദേശങ്ങളും വായിച്ച് പാലിക്കുക, കൂടാതെ വീണ്ടും പ്രവേശിക്കേണ്ട സമയവും വിളവെടുപ്പിന് മുമ്പുള്ള കാത്തിരിപ്പ് കാലവും മാനിക്കുക."
+    },
+    "severityLabels": {
+      "Mild (None)": "ലഘുവായത് (രോഗമില്ല)",
+      "Mild": "ലഘുവായത്",
+      "Mild to Moderate": "ലഘുവായത് മുതൽ മിതമായത് വരെ",
+      "Moderate": "മിതമായത്",
+      "Moderate to Severe": "മിതമായത് മുതൽ ഗുരുതരം വരെ",
+      "Severe": "ഗുരുതരം"
+    }
+  }
+}

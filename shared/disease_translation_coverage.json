@@ -1,0 +1,3172 @@
+{
+  "canonicalClassCount": 38,
+  "classIdSource": "backend/models/class_names.json",
+  "knowledgeSource": "backend/services/disease_knowledge_base.py",
+  "fieldNames": [
+    "crop_display",
+    "disease_display",
+    "severity",
+    "symptoms",
+    "possible_causes",
+    "causes",
+    "recommended_management",
+    "treatment",
+    "prevention",
+    "safety_warnings",
+    "warnings",
+    "precautions",
+    "diagnostic_note",
+    "error"
+  ],
+  "coverageStatusLegend": {
+    "source_language": "English reference content; no translation required",
+    "verified": "A checked local translation exists for this class and field",
+    "partial": "Some applicable fields have checked translations; others are explicitly missing",
+    "missing": "No checked local translation exists",
+    "not_applicable": "The source diagnosis does not contain this field"
+  },
+  "coverageSummary": {
+    "en": {
+      "source_language": 38,
+      "verified": 0,
+      "partial": 0,
+      "missing": 0
+    },
+    "mr": {
+      "source_language": 0,
+      "verified": 2,
+      "partial": 36,
+      "missing": 0
+    },
+    "hi": {
+      "source_language": 0,
+      "verified": 2,
+      "partial": 36,
+      "missing": 0
+    },
+    "ml": {
+      "source_language": 0,
+      "verified": 2,
+      "partial": 36,
+      "missing": 0
+    }
+  },
+  "classes": [
+    {
+      "classId": "Apple___Apple_scab",
+      "knowledgeBaseKey": "apple_apple_scab",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Apple___Black_rot",
+      "knowledgeBaseKey": "apple_black_rot",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Apple___Cedar_apple_rust",
+      "knowledgeBaseKey": "apple_cedar_apple_rust",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Apple___healthy",
+      "knowledgeBaseKey": "apple_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Blueberry___healthy",
+      "knowledgeBaseKey": "blueberry_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Cherry_(including_sour)___Powdery_mildew",
+      "knowledgeBaseKey": "cherry_powdery_mildew",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Cherry_(including_sour)___healthy",
+      "knowledgeBaseKey": "cherry_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "knowledgeBaseKey": "corn_leaf_spot",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "verified",
+          "fields": {
+            "crop_display": "verified",
+            "disease_display": "verified",
+            "severity": "verified",
+            "symptoms": "verified",
+            "possible_causes": "verified",
+            "causes": "verified",
+            "recommended_management": "verified",
+            "treatment": "verified",
+            "prevention": "verified",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "verified",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "verified",
+          "fields": {
+            "crop_display": "verified",
+            "disease_display": "verified",
+            "severity": "verified",
+            "symptoms": "verified",
+            "possible_causes": "verified",
+            "causes": "verified",
+            "recommended_management": "verified",
+            "treatment": "verified",
+            "prevention": "verified",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "verified",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "verified",
+          "fields": {
+            "crop_display": "verified",
+            "disease_display": "verified",
+            "severity": "verified",
+            "symptoms": "verified",
+            "possible_causes": "verified",
+            "causes": "verified",
+            "recommended_management": "verified",
+            "treatment": "verified",
+            "prevention": "verified",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "verified",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Corn_(maize)___Common_rust_",
+      "knowledgeBaseKey": "corn_rust",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "verified",
+          "fields": {
+            "crop_display": "verified",
+            "disease_display": "verified",
+            "severity": "verified",
+            "symptoms": "verified",
+            "possible_causes": "verified",
+            "causes": "verified",
+            "recommended_management": "verified",
+            "treatment": "verified",
+            "prevention": "verified",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "verified",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "verified",
+          "fields": {
+            "crop_display": "verified",
+            "disease_display": "verified",
+            "severity": "verified",
+            "symptoms": "verified",
+            "possible_causes": "verified",
+            "causes": "verified",
+            "recommended_management": "verified",
+            "treatment": "verified",
+            "prevention": "verified",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "verified",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "verified",
+          "fields": {
+            "crop_display": "verified",
+            "disease_display": "verified",
+            "severity": "verified",
+            "symptoms": "verified",
+            "possible_causes": "verified",
+            "causes": "verified",
+            "recommended_management": "verified",
+            "treatment": "verified",
+            "prevention": "verified",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "verified",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Corn_(maize)___Northern_Leaf_Blight",
+      "knowledgeBaseKey": "corn_northern_leaf_blight",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Corn_(maize)___healthy",
+      "knowledgeBaseKey": "corn_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Grape___Black_rot",
+      "knowledgeBaseKey": "grape_black_rot",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Grape___Esca_(Black_Measles)",
+      "knowledgeBaseKey": "grape_esca",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "knowledgeBaseKey": "grape_leaf_blight_isariopsis",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Grape___healthy",
+      "knowledgeBaseKey": "grape_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Orange___Haunglongbing_(Citrus_greening)",
+      "knowledgeBaseKey": "orange_haunglongbing",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Peach___Bacterial_spot",
+      "knowledgeBaseKey": "peach_bacterial_spot",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Peach___healthy",
+      "knowledgeBaseKey": "peach_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Pepper,_bell___Bacterial_spot",
+      "knowledgeBaseKey": "bell_pepper_bacterial_spot",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Pepper,_bell___healthy",
+      "knowledgeBaseKey": "bell_pepper_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Potato___Early_blight",
+      "knowledgeBaseKey": "potato_early_blight",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Potato___Late_blight",
+      "knowledgeBaseKey": "potato_late_blight",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Potato___healthy",
+      "knowledgeBaseKey": "potato_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Raspberry___healthy",
+      "knowledgeBaseKey": "raspberry_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Soybean___healthy",
+      "knowledgeBaseKey": "soybean_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Squash___Powdery_mildew",
+      "knowledgeBaseKey": "squash_powdery_mildew",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Strawberry___Leaf_scorch",
+      "knowledgeBaseKey": "strawberry_leaf_scorch",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Strawberry___healthy",
+      "knowledgeBaseKey": "strawberry_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___Bacterial_spot",
+      "knowledgeBaseKey": "tomato_bacterial_spot",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___Early_blight",
+      "knowledgeBaseKey": "tomato_early_blight",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___Late_blight",
+      "knowledgeBaseKey": "tomato_late_blight",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___Leaf_Mold",
+      "knowledgeBaseKey": "tomato_leaf_mold",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___Septoria_leaf_spot",
+      "knowledgeBaseKey": "tomato_septoria_leaf_spot",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "knowledgeBaseKey": "tomato_spider_mites",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___Target_Spot",
+      "knowledgeBaseKey": "tomato_target_spot",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "knowledgeBaseKey": "tomato_tomato_yellow_leaf_curl",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___Tomato_mosaic_virus",
+      "knowledgeBaseKey": "tomato_tomato_mosaic_virus",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    },
+    {
+      "classId": "Tomato___healthy",
+      "knowledgeBaseKey": "tomato_healthy",
+      "languages": {
+        "en": {
+          "status": "source_language",
+          "fields": {
+            "crop_display": "source_language",
+            "disease_display": "source_language",
+            "severity": "source_language",
+            "symptoms": "source_language",
+            "possible_causes": "source_language",
+            "causes": "source_language",
+            "recommended_management": "source_language",
+            "treatment": "source_language",
+            "prevention": "source_language",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "source_language",
+            "error": "not_applicable"
+          }
+        },
+        "mr": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "hi": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        },
+        "ml": {
+          "status": "partial",
+          "fields": {
+            "crop_display": "missing",
+            "disease_display": "missing",
+            "severity": "verified",
+            "symptoms": "missing",
+            "possible_causes": "missing",
+            "causes": "missing",
+            "recommended_management": "missing",
+            "treatment": "missing",
+            "prevention": "missing",
+            "safety_warnings": "not_applicable",
+            "warnings": "not_applicable",
+            "precautions": "not_applicable",
+            "diagnostic_note": "missing",
+            "error": "not_applicable"
+          }
+        }
+      }
+    }
+  ]
+}

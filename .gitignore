@@ -48,3 +48,6 @@ farmer-buyer-source-backup-20261013-131603.zip
 
 # Compiled Python files
 *.pyc
+
+# Generated frontend build output
+frontend/dist/
